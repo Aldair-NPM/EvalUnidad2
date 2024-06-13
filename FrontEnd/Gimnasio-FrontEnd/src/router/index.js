@@ -31,6 +31,7 @@ import DetallePedidosView from '@/components/views/DetallePedidosView.vue'
 import PagosView from '@/components/views/PagosView.vue'
 import PromocionesView from '@/components/views/PromocionesView.vue'
 import DetalleProductosView from '@/components/views/DetalleProductosView.vue'
+import FooterView from '@/components/Footer.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -137,6 +138,10 @@ const router = createRouter({
           {
             path:'/pagos', name:'pagos', component: PagosView
           },
+          {
+            path:'/footer', name:'footer', component: FooterView
+          },
+        
         ]
     },
   ]
