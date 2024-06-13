@@ -287,16 +287,19 @@
   
   <div class="p-4 sm:ml-64">
       <router-view/>
+      <Footer></Footer>
   </div>
 
 </template>
 <script>
    import Home from '../components/Home.vue'
+   import Footer from '../components/Footer.vue'
 
    export default {
       components:
          {
-            Home
+            Home,
+            Footer
          }
    }
 </script>

@@ -1,15 +1,4 @@
 <template>
-    <h1 class="text-center">Hola desde el componente del Dashboard</h1>
-    <Footer></Footer>
+    <h1 class="text-center">Hola desde el componente del Home</h1>
 </template>
 
-<script>
-    import Footer from '../components/Footer.vue'
-
-    export default{
-        components:
-            {
-                Footer
-            }
-    }
-</script>
